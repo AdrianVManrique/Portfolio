@@ -38,6 +38,10 @@
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="src\assets\PurpleGalaxy.jpg" />
+    <Content Include="src\css\styles.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="tsconfig.json">
       <SubType>Code</SubType>
     </Content>
@@ -46,12 +50,15 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app.tsx">
+    <TypeScriptCompile Include="src\app.tsx">
       <SubType>Code</SubType>
     </TypeScriptCompile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dist\" />
+    <Folder Include="src\" />
+    <Folder Include="src\assets\" />
+    <Folder Include="src\css\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>

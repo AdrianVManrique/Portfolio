@@ -1,3 +1,5 @@
+import "./css/styles.css"
+
 declare var require: any
 
 var React = require('react');
@@ -7,8 +9,12 @@ export class Hello extends React.Component {
     render() {
         return (
             <>
-                <h1>Adrian Manrique's Portfolio</h1>
-                <h1>Software Engineer</h1>
+                <section className="main-container">
+                    
+                    <h1 className="my-name">ADRIAN MANRIQUE</h1>
+                    <h2 className="my-title">SOFTWARE ENGINEER</h2>
+
+                </section>
             </>
         );
     }
