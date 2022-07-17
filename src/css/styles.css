@@ -4,21 +4,27 @@ body {
     background-Size: cover;
     background-Repeat: no-repeat;
     height: 100vh;
+    min-width: 800px;
+    min-height: 850px;
 }
 
-.main-container {
+.section{
+    height: 100vh;
+}
+#banner {
     color: white;
     text-align: center;
     margin: auto;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
+    white-space: nowrap;
 }
 
-.my-name{
+#my-name{
     font-size: xx-large;
 }
 
-.my-title{
+#my-title{
     font-size: larger;
 }

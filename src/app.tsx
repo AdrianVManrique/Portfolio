@@ -9,12 +9,38 @@ export class Hello extends React.Component {
     render() {
         return (
             <>
-                <section className="main-container">
-                    
-                    <h1 className="my-name">ADRIAN MANRIQUE</h1>
-                    <h2 className="my-title">SOFTWARE ENGINEER</h2>
-
+                <section id="banner">
+                    <div className="inner">
+                        <h1 id="my-name">ADRIAN MANRIQUE</h1>
+                        <p id="my-title">SOFTWARE ENGINEER</p>
+                    </div>
                 </section>
+
+                <section id="aboutme">
+                    <div className="inner">
+                        <h1>About Me</h1>
+                    </div>
+                </section>
+
+                <section id="skills">
+                    <div className="inner">
+                        <h1>Skills</h1>
+                    </div>
+                </section>
+
+                <section id="projects">
+                    <div className="inner">
+                        <h1>Projects</h1>
+                    </div>
+                </section>
+
+                { /* Template for sections
+                <section id="extra">
+                    <div class="inner">
+                    </div>
+                </section>
+                */
+                }
             </>
         );
     }
