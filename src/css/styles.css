@@ -8,23 +8,39 @@ body {
     min-height: 850px;
 }
 
-.section{
-    height: 100vh;
+h1 {
+    color: whitesmoke;
+    text-transform: uppercase;
 }
-#banner {
-    color: white;
-    text-align: center;
+
+p {
+    color: whitesmoke;
+}
+
+.section {
+    height: 100vh;
     margin: auto;
-    width: 50%;
-    border: 3px solid green;
+    width: auto;
+    border: 5px solid green;
     padding: 10px;
     white-space: nowrap;
+}
+
+.inner {
+    text-align: center;
+    margin: auto;
+    width: auto;
+}
+
+#banner {
+    text-align: center;
 }
 
 #my-name{
     font-size: xx-large;
 }
 
-#my-title{
+#my-title {
     font-size: larger;
+    text-transform: uppercase;
 }

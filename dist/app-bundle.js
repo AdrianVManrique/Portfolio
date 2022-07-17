@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-Position: center;\r\n    background-Size: cover;\r\n    background-Repeat: no-repeat;\r\n    height: 100vh;\r\n    min-width: 800px;\r\n    min-height: 850px;\r\n}\r\n\r\n.section{\r\n    height: 100vh;\r\n}\r\n#banner {\r\n    color: white;\r\n    text-align: center;\r\n    margin: auto;\r\n    width: 50%;\r\n    border: 3px solid green;\r\n    padding: 10px;\r\n    white-space: nowrap;\r\n}\r\n\r\n#my-name{\r\n    font-size: xx-large;\r\n}\r\n\r\n#my-title{\r\n    font-size: larger;\r\n}", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"AAAA;IACI,yDAAmD;IACnD,2BAA2B;IAC3B,sBAAsB;IACtB,4BAA4B;IAC5B,aAAa;IACb,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,aAAa;AACjB;AACA;IACI,YAAY;IACZ,kBAAkB;IAClB,YAAY;IACZ,UAAU;IACV,uBAAuB;IACvB,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,iBAAiB;AACrB","sourcesContent":["body {\r\n    background-image: url(\"../assets/PurpleGalaxy.jpg\");\r\n    background-Position: center;\r\n    background-Size: cover;\r\n    background-Repeat: no-repeat;\r\n    height: 100vh;\r\n    min-width: 800px;\r\n    min-height: 850px;\r\n}\r\n\r\n.section{\r\n    height: 100vh;\r\n}\r\n#banner {\r\n    color: white;\r\n    text-align: center;\r\n    margin: auto;\r\n    width: 50%;\r\n    border: 3px solid green;\r\n    padding: 10px;\r\n    white-space: nowrap;\r\n}\r\n\r\n#my-name{\r\n    font-size: xx-large;\r\n}\r\n\r\n#my-title{\r\n    font-size: larger;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-Position: center;\r\n    background-Size: cover;\r\n    background-Repeat: no-repeat;\r\n    height: 100vh;\r\n    min-width: 800px;\r\n    min-height: 850px;\r\n}\r\n\r\nh1 {\r\n    color: whitesmoke;\r\n    text-transform: uppercase;\r\n}\r\n\r\np {\r\n    color: whitesmoke;\r\n}\r\n\r\n.section {\r\n    height: 100vh;\r\n    margin: auto;\r\n    width: auto;\r\n    border: 5px solid green;\r\n    padding: 10px;\r\n    white-space: nowrap;\r\n}\r\n\r\n.inner {\r\n    text-align: center;\r\n    margin: auto;\r\n    width: auto;\r\n}\r\n\r\n#banner {\r\n    text-align: center;\r\n}\r\n\r\n#my-name{\r\n    font-size: xx-large;\r\n}\r\n\r\n#my-title {\r\n    font-size: larger;\r\n    text-transform: uppercase;\r\n}", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"AAAA;IACI,yDAAmD;IACnD,2BAA2B;IAC3B,sBAAsB;IACtB,4BAA4B;IAC5B,aAAa;IACb,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;IACjB,yBAAyB;AAC7B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,WAAW;IACX,uBAAuB;IACvB,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,iBAAiB;IACjB,yBAAyB;AAC7B","sourcesContent":["body {\r\n    background-image: url(\"../assets/PurpleGalaxy.jpg\");\r\n    background-Position: center;\r\n    background-Size: cover;\r\n    background-Repeat: no-repeat;\r\n    height: 100vh;\r\n    min-width: 800px;\r\n    min-height: 850px;\r\n}\r\n\r\nh1 {\r\n    color: whitesmoke;\r\n    text-transform: uppercase;\r\n}\r\n\r\np {\r\n    color: whitesmoke;\r\n}\r\n\r\n.section {\r\n    height: 100vh;\r\n    margin: auto;\r\n    width: auto;\r\n    border: 5px solid green;\r\n    padding: 10px;\r\n    white-space: nowrap;\r\n}\r\n\r\n.inner {\r\n    text-align: center;\r\n    margin: auto;\r\n    width: auto;\r\n}\r\n\r\n#banner {\r\n    text-align: center;\r\n}\r\n\r\n#my-name{\r\n    font-size: xx-large;\r\n}\r\n\r\n#my-title {\r\n    font-size: larger;\r\n    text-transform: uppercase;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -30086,6 +30086,38 @@ if (
 
 /***/ }),
 
+/***/ "./node_modules/react-dom/client.js":
+/*!******************************************!*\
+  !*** ./node_modules/react-dom/client.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+
+var m = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+if (false) {} else {
+  var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+  exports.createRoot = function(c, o) {
+    i.usingClientEntryPoint = true;
+    try {
+      return m.createRoot(c, o);
+    } finally {
+      i.usingClientEntryPoint = false;
+    }
+  };
+  exports.hydrateRoot = function(c, h, o) {
+    i.usingClientEntryPoint = true;
+    try {
+      return m.hydrateRoot(c, h, o);
+    } finally {
+      i.usingClientEntryPoint = false;
+    }
+  };
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/react-dom/index.js":
 /*!*****************************************!*\
   !*** ./node_modules/react-dom/index.js ***!
@@ -33936,10 +33968,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Hello = void 0;
 __webpack_require__(/*! ./css/styles.css */ "./src/css/styles.css");
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+var ReactDOM = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 var Hello = /** @class */ (function (_super) {
     __extends(Hello, _super);
     function Hello() {
@@ -33949,11 +33980,11 @@ var Hello = /** @class */ (function (_super) {
         return (React.createElement(React.Fragment, null,
             React.createElement("section", { id: "banner" },
                 React.createElement("div", { className: "inner" },
-                    React.createElement("h1", { id: "my-name" }, "ADRIAN MANRIQUE"),
-                    React.createElement("p", { id: "my-title" }, "SOFTWARE ENGINEER"))),
+                    React.createElement("h1", { id: "my-name" }, "Adrian Manrique"),
+                    React.createElement("p", { id: "my-title" }, "Software Engineer"))),
             React.createElement("section", { id: "aboutme" },
                 React.createElement("div", { className: "inner" },
-                    React.createElement("h1", null, "About Me"))),
+                    React.createElement("h1", null, "About"))),
             React.createElement("section", { id: "skills" },
                 React.createElement("div", { className: "inner" },
                     React.createElement("h1", null, "Skills"))),
@@ -33963,8 +33994,8 @@ var Hello = /** @class */ (function (_super) {
     };
     return Hello;
 }(React.Component));
-exports.Hello = Hello;
-ReactDOM.render(React.createElement(Hello, null), document.getElementById('root'));
+var root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(React.createElement(Hello, null));
 
 
 /***/ }),
@@ -33975,7 +34006,7 @@ ReactDOM.render(React.createElement(Hello, null), document.getElementById('root'
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "9eac2f7bb3af1a361705.jpg";
+module.exports = __webpack_require__.p + "be8ae0b4b0f665b33ad1.jpg";
 
 /***/ })
 
