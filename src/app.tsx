@@ -19,6 +19,11 @@ class Hello extends React.Component {
                 <section id="aboutme">
                     <div className="inner">
                         <h1>About</h1>
+                        <p>New Software Engineering Undergraduate with an emphasis on building back-end backend solutions that integrate seamlessly with front-end interfaces.
+                            Created multiple full-stack projects involving Web, Android, Desktop, and Unity development. 
+                        </p>
+                        <p>Experienced in working with Javascript, TypeScript, Jquery, React, Node, Express, SQL, and NoSQL
+                        </p>
                     </div>
                 </section>
 
