@@ -38,6 +38,7 @@
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="src\assets\Nordson_Capstone.png" />
     <Content Include="src\assets\PurpleGalaxy.jpg" />
     <Content Include="src\css\styles.css">
       <SubType>Code</SubType>

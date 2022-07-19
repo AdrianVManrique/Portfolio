@@ -16,7 +16,7 @@ class Hello extends React.Component {
                     </div>
                 </section>
 
-                <section id="aboutme">
+                <section id="aboutme" className="wrapper0">
                     <div className="inner">
                         <h1>About</h1>
                         <p>New Software Engineering Undergraduate with an emphasis on building back-end backend solutions that integrate seamlessly with front-end interfaces.
@@ -27,9 +27,25 @@ class Hello extends React.Component {
                     </div>
                 </section>
 
-                <section id="skills">
+                <section id="skills" className="wrapper1">
                     <div className="inner">
                         <h1>Skills</h1>
+                        <ul>
+                            <li>
+                                <h3>Software Engineering</h3>
+                                <p>I am a software engineer</p>
+                            </li>
+
+                            <li>
+                                <h3>Project Management</h3>
+                                <p>Experience using Atlassian Tools</p>
+                            </li>
+
+                            <li>
+                                <h3>Leadership</h3>
+                                <p>I have led groups</p>
+                            </li>
+                        </ul>
                     </div>
                 </section>
 
