@@ -1,9 +1,20 @@
-body {
+* {
+    color: whitesmoke;
+    text-size-adjust: 100%;
+    vertical-align: baseline;
+}
+header{
+    height: auto;
+    width:auto;
+}
+html,body {
     background-image: url("../assets/PurpleGalaxy.jpg");
     background-Position: center;
     background-Size: cover;
     background-Repeat: no-repeat;
-    height: 100vh;
+    min-height:100%;
+    height:100%;
+    width:100%;
     margin: 0px !important;
 }
 
@@ -18,16 +29,21 @@ ul {
 }
 
 h1 {
-    color: whitesmoke;
     text-transform: uppercase;
 }
 h3 {
-    color: whitesmoke;
     text-transform: uppercase;
 }
 
-p {
-    color: whitesmoke;
+.image {
+    max-width: 436.5px !important;
+}
+
+.content{
+    padding-bottom: 1.6px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 32px;
 }
 
 .wrapper0{
@@ -56,9 +72,12 @@ p {
     margin-left: 48.5px;
     margin-right: 48.5px;
     box-sizing: border-box;
-    vertical-align: baseline;
     display: block;
     width: 873px;
+}
+
+#projects {
+    display: flex;
 }
 
 #banner {

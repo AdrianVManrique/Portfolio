@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-Position: center;\r\n    background-Size: cover;\r\n    background-Repeat: no-repeat;\r\n    height: 100vh;\r\n    margin: 0px !important;\r\n}\r\n\r\nul {\r\n    list-style-type: none;\r\n    list-style-image: none;\r\n    list-style-position: outside;\r\n    justify-content: center;\r\n    display: flex;\r\n    padding: 0;\r\n    text-align:center;\r\n}\r\n\r\nh1 {\r\n    color: whitesmoke;\r\n    text-transform: uppercase;\r\n}\r\nh3 {\r\n    color: whitesmoke;\r\n    text-transform: uppercase;\r\n}\r\n\r\np {\r\n    color: whitesmoke;\r\n}\r\n\r\n.wrapper0{\r\n    background-color: darkgrey;\r\n    background-size: cover;\r\n    border-image-repeat: stretch;\r\n    border-image-width: 1;\r\n\r\n}\r\n\r\n.wrapper1 {\r\n    background-color: dodgerblue;\r\n    background-size: cover;\r\n    border-image-repeat: stretch;\r\n    border-image-width: 1;\r\n}\r\n\r\n.section {\r\n    height: 100vh;\r\n    margin: auto;\r\n    width: 700px;\r\n}\r\n\r\n.inner {\r\n    text-align: center;\r\n    margin-left: 48.5px;\r\n    margin-right: 48.5px;\r\n    box-sizing: border-box;\r\n    vertical-align: baseline;\r\n    display: block;\r\n    width: 873px;\r\n}\r\n\r\n#banner {\r\n    text-align: center;\r\n}\r\n\r\n#my-name{\r\n    font-size: xx-large;\r\n}\r\n\r\n#my-title {\r\n    font-size: larger;\r\n    text-transform: uppercase;\r\n}", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"AAAA;IACI,yDAAmD;IACnD,2BAA2B;IAC3B,sBAAsB;IACtB,4BAA4B;IAC5B,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,qBAAqB;IACrB,sBAAsB;IACtB,4BAA4B;IAC5B,uBAAuB;IACvB,aAAa;IACb,UAAU;IACV,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;IACjB,yBAAyB;AAC7B;AACA;IACI,iBAAiB;IACjB,yBAAyB;AAC7B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,0BAA0B;IAC1B,sBAAsB;IACtB,4BAA4B;IAC5B,qBAAqB;;AAEzB;;AAEA;IACI,4BAA4B;IAC5B,sBAAsB;IACtB,4BAA4B;IAC5B,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,YAAY;AAChB;;AAEA;IACI,kBAAkB;IAClB,mBAAmB;IACnB,oBAAoB;IACpB,sBAAsB;IACtB,wBAAwB;IACxB,cAAc;IACd,YAAY;AAChB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,iBAAiB;IACjB,yBAAyB;AAC7B","sourcesContent":["body {\r\n    background-image: url(\"../assets/PurpleGalaxy.jpg\");\r\n    background-Position: center;\r\n    background-Size: cover;\r\n    background-Repeat: no-repeat;\r\n    height: 100vh;\r\n    margin: 0px !important;\r\n}\r\n\r\nul {\r\n    list-style-type: none;\r\n    list-style-image: none;\r\n    list-style-position: outside;\r\n    justify-content: center;\r\n    display: flex;\r\n    padding: 0;\r\n    text-align:center;\r\n}\r\n\r\nh1 {\r\n    color: whitesmoke;\r\n    text-transform: uppercase;\r\n}\r\nh3 {\r\n    color: whitesmoke;\r\n    text-transform: uppercase;\r\n}\r\n\r\np {\r\n    color: whitesmoke;\r\n}\r\n\r\n.wrapper0{\r\n    background-color: darkgrey;\r\n    background-size: cover;\r\n    border-image-repeat: stretch;\r\n    border-image-width: 1;\r\n\r\n}\r\n\r\n.wrapper1 {\r\n    background-color: dodgerblue;\r\n    background-size: cover;\r\n    border-image-repeat: stretch;\r\n    border-image-width: 1;\r\n}\r\n\r\n.section {\r\n    height: 100vh;\r\n    margin: auto;\r\n    width: 700px;\r\n}\r\n\r\n.inner {\r\n    text-align: center;\r\n    margin-left: 48.5px;\r\n    margin-right: 48.5px;\r\n    box-sizing: border-box;\r\n    vertical-align: baseline;\r\n    display: block;\r\n    width: 873px;\r\n}\r\n\r\n#banner {\r\n    text-align: center;\r\n}\r\n\r\n#my-name{\r\n    font-size: xx-large;\r\n}\r\n\r\n#my-title {\r\n    font-size: larger;\r\n    text-transform: uppercase;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n    color: whitesmoke;\r\n    text-size-adjust: 100%;\r\n    vertical-align: baseline;\r\n}\r\nheader{\r\n    height: auto;\r\n    width:auto;\r\n}\r\nhtml,body {\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-Position: center;\r\n    background-Size: cover;\r\n    background-Repeat: no-repeat;\r\n    min-height:100%;\r\n    height:100%;\r\n    width:100%;\r\n    margin: 0px !important;\r\n}\r\n\r\nul {\r\n    list-style-type: none;\r\n    list-style-image: none;\r\n    list-style-position: outside;\r\n    justify-content: center;\r\n    display: flex;\r\n    padding: 0;\r\n    text-align:center;\r\n}\r\n\r\nh1 {\r\n    text-transform: uppercase;\r\n}\r\nh3 {\r\n    text-transform: uppercase;\r\n}\r\n\r\n.image {\r\n    max-width: 436.5px !important;\r\n}\r\n\r\n.content{\r\n    padding-bottom: 1.6px;\r\n    padding-left: 64px;\r\n    padding-right: 64px;\r\n    padding-top: 32px;\r\n}\r\n\r\n.wrapper0{\r\n    background-color: darkgrey;\r\n    background-size: cover;\r\n    border-image-repeat: stretch;\r\n    border-image-width: 1;\r\n\r\n}\r\n\r\n.wrapper1 {\r\n    background-color: dodgerblue;\r\n    background-size: cover;\r\n    border-image-repeat: stretch;\r\n    border-image-width: 1;\r\n}\r\n\r\n.section {\r\n    height: 100vh;\r\n    margin: auto;\r\n    width: 700px;\r\n}\r\n\r\n.inner {\r\n    text-align: center;\r\n    margin-left: 48.5px;\r\n    margin-right: 48.5px;\r\n    box-sizing: border-box;\r\n    display: block;\r\n    width: 873px;\r\n}\r\n\r\n#projects {\r\n    display: flex;\r\n}\r\n\r\n#banner {\r\n    text-align: center;\r\n}\r\n\r\n#my-name{\r\n    font-size: xx-large;\r\n}\r\n\r\n#my-title {\r\n    font-size: larger;\r\n    text-transform: uppercase;\r\n}", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"AAAA;IACI,iBAAiB;IACjB,sBAAsB;IACtB,wBAAwB;AAC5B;AACA;IACI,YAAY;IACZ,UAAU;AACd;AACA;IACI,yDAAmD;IACnD,2BAA2B;IAC3B,sBAAsB;IACtB,4BAA4B;IAC5B,eAAe;IACf,WAAW;IACX,UAAU;IACV,sBAAsB;AAC1B;;AAEA;IACI,qBAAqB;IACrB,sBAAsB;IACtB,4BAA4B;IAC5B,uBAAuB;IACvB,aAAa;IACb,UAAU;IACV,iBAAiB;AACrB;;AAEA;IACI,yBAAyB;AAC7B;AACA;IACI,yBAAyB;AAC7B;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,qBAAqB;IACrB,kBAAkB;IAClB,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,0BAA0B;IAC1B,sBAAsB;IACtB,4BAA4B;IAC5B,qBAAqB;;AAEzB;;AAEA;IACI,4BAA4B;IAC5B,sBAAsB;IACtB,4BAA4B;IAC5B,qBAAqB;AACzB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,YAAY;AAChB;;AAEA;IACI,kBAAkB;IAClB,mBAAmB;IACnB,oBAAoB;IACpB,sBAAsB;IACtB,cAAc;IACd,YAAY;AAChB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,iBAAiB;IACjB,yBAAyB;AAC7B","sourcesContent":["* {\r\n    color: whitesmoke;\r\n    text-size-adjust: 100%;\r\n    vertical-align: baseline;\r\n}\r\nheader{\r\n    height: auto;\r\n    width:auto;\r\n}\r\nhtml,body {\r\n    background-image: url(\"../assets/PurpleGalaxy.jpg\");\r\n    background-Position: center;\r\n    background-Size: cover;\r\n    background-Repeat: no-repeat;\r\n    min-height:100%;\r\n    height:100%;\r\n    width:100%;\r\n    margin: 0px !important;\r\n}\r\n\r\nul {\r\n    list-style-type: none;\r\n    list-style-image: none;\r\n    list-style-position: outside;\r\n    justify-content: center;\r\n    display: flex;\r\n    padding: 0;\r\n    text-align:center;\r\n}\r\n\r\nh1 {\r\n    text-transform: uppercase;\r\n}\r\nh3 {\r\n    text-transform: uppercase;\r\n}\r\n\r\n.image {\r\n    max-width: 436.5px !important;\r\n}\r\n\r\n.content{\r\n    padding-bottom: 1.6px;\r\n    padding-left: 64px;\r\n    padding-right: 64px;\r\n    padding-top: 32px;\r\n}\r\n\r\n.wrapper0{\r\n    background-color: darkgrey;\r\n    background-size: cover;\r\n    border-image-repeat: stretch;\r\n    border-image-width: 1;\r\n\r\n}\r\n\r\n.wrapper1 {\r\n    background-color: dodgerblue;\r\n    background-size: cover;\r\n    border-image-repeat: stretch;\r\n    border-image-width: 1;\r\n}\r\n\r\n.section {\r\n    height: 100vh;\r\n    margin: auto;\r\n    width: 700px;\r\n}\r\n\r\n.inner {\r\n    text-align: center;\r\n    margin-left: 48.5px;\r\n    margin-right: 48.5px;\r\n    box-sizing: border-box;\r\n    display: block;\r\n    width: 873px;\r\n}\r\n\r\n#projects {\r\n    display: flex;\r\n}\r\n\r\n#banner {\r\n    text-align: center;\r\n}\r\n\r\n#my-name{\r\n    font-size: xx-large;\r\n}\r\n\r\n#my-title {\r\n    font-size: larger;\r\n    text-transform: uppercase;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -33969,6 +33969,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 __webpack_require__(/*! ./css/styles.css */ "./src/css/styles.css");
+var project_1 = __webpack_require__(/*! ./project */ "./src/project.tsx");
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 var Hello = /** @class */ (function (_super) {
@@ -34001,13 +34002,73 @@ var Hello = /** @class */ (function (_super) {
                             React.createElement("h3", null, "Leadership"),
                             React.createElement("p", null, "I have led groups"))))),
             React.createElement("section", { id: "projects" },
-                React.createElement("div", { className: "inner" },
-                    React.createElement("h1", null, "Projects")))));
+                React.createElement(project_1.default, null))));
     };
     return Hello;
 }(React.Component));
 var root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(React.createElement(Hello, null));
+{ /* Template for sections
+                <section id="extra">
+                    <div class="inner">
+                    </div>
+                </section>
+                */
+}
+
+
+/***/ }),
+
+/***/ "./src/project.tsx":
+/*!*************************!*\
+  !*** ./src/project.tsx ***!
+  \*************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var Project = /** @class */ (function (_super) {
+    __extends(Project, _super);
+    function Project() {
+        var _this = _super.call(this) || this;
+        _this.state = {
+            imgURL: "../src/assets/Nordson_Capstone_Resized.png",
+            title: "Default Title",
+            desc: "Default Project Description",
+            link: "https://www.w3schools.com/cssref/pr_dim_width.asp"
+        };
+        return _this;
+    }
+    Project.prototype.render = function () {
+        return (React.createElement(React.Fragment, null,
+            React.createElement("div", { className: "image" },
+                React.createElement("img", { src: this.state.imgURL })),
+            React.createElement("div", { className: "content" },
+                React.createElement("h2", null, this.state.title),
+                React.createElement("p", null, this.state.desc),
+                React.createElement("p", null,
+                    React.createElement("a", { href: this.state.link }, "Repository Link")))));
+    };
+    return Project;
+}(React.Component));
+exports["default"] = Project;
+{ /* "./assets/Nordson_Capstone.png" */ }
 
 
 /***/ }),

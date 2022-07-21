@@ -38,7 +38,7 @@
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="src\assets\Nordson_Capstone.png" />
+    <Content Include="src\assets\Nordson_Capstone_Resized.png" />
     <Content Include="src\assets\PurpleGalaxy.jpg" />
     <Content Include="src\css\styles.css">
       <SubType>Code</SubType>
@@ -52,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\app.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\project.tsx">
       <SubType>Code</SubType>
     </TypeScriptCompile>
   </ItemGroup>

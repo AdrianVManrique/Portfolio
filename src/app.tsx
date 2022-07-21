@@ -1,4 +1,5 @@
 import "./css/styles.css"
+import Project from './project'
 
 declare var require: any
 
@@ -50,22 +51,22 @@ class Hello extends React.Component {
                 </section>
 
                 <section id="projects">
-                    <div className="inner">
-                        <h1>Projects</h1>
-                    </div>
+                        <Project/>
                 </section>
 
-                { /* Template for sections
-                <section id="extra">
-                    <div class="inner">
-                    </div>
-                </section>
-                */
-                }
+                
             </>
         );
     }
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Hello/>);
+root.render(<Hello />);
+
+{ /* Template for sections
+                <section id="extra">
+                    <div class="inner">
+                    </div>
+                </section>
+                */
+}
