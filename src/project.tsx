@@ -11,7 +11,7 @@ class Project extends React.Component {
     }
     render() {
         return (
-            <>
+            <div className="wrapper2">
                 <div className="image">
                     <img src={this.state.imgURL} />
                 </div>
@@ -20,7 +20,7 @@ class Project extends React.Component {
                     <p>{this.state.desc}</p>
                     <p><a href={this.state.link}>Repository Link</a></p>
                 </div>
-            </>);
+            </div>);
     }
 }
 

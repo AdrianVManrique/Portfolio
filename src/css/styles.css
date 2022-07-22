@@ -1,42 +1,54 @@
 * {
     color: whitesmoke;
     text-size-adjust: 100%;
+    justify-content: center;
     vertical-align: baseline;
+    box-sizing: border-box;
+    margin: 0px;
 }
+
+html, body {
+    background: url("../assets/PurpleGalaxy.jpg") no-repeat center center fixed;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0px !important;
+}
+
 header{
     height: auto;
     width:auto;
-}
-html,body {
-    background-image: url("../assets/PurpleGalaxy.jpg");
-    background-Position: center;
-    background-Size: cover;
-    background-Repeat: no-repeat;
-    min-height:100%;
-    height:100%;
-    width:100%;
-    margin: 0px !important;
 }
 
 ul {
     list-style-type: none;
     list-style-image: none;
     list-style-position: outside;
-    justify-content: center;
     display: flex;
     padding: 0;
     text-align:center;
 }
 
-h1 {
-    text-transform: uppercase;
+li{
+    text-align: left;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin: initial;
 }
-h3 {
+
+h1,h2,h3 {
     text-transform: uppercase;
 }
 
 .image {
     max-width: 436.5px !important;
+    padding-top: 32px;
+    padding-left: 32px;
 }
 
 .content{
@@ -55,25 +67,22 @@ h3 {
 }
 
 .wrapper1 {
-    background-color: dodgerblue;
+    background-color: midnightblue;
     background-size: cover;
     border-image-repeat: stretch;
     border-image-width: 1;
 }
 
-.section {
-    height: 100vh;
-    margin: auto;
-    width: 700px;
+.wrapper2{
+    display: flex;
 }
 
 .inner {
     text-align: center;
+    top: 50%;
     margin-left: 48.5px;
     margin-right: 48.5px;
-    box-sizing: border-box;
     display: block;
-    width: 873px;
 }
 
 #projects {
@@ -81,14 +90,34 @@ h3 {
 }
 
 #banner {
-    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 560px;
+}
+
+#page-wrapper {
+    display:block;
 }
 
 #my-name{
     font-size: xx-large;
 }
-
 #my-title {
     font-size: larger;
     text-transform: uppercase;
+}
+
+#skillsHeader{
+    margin-bottom: 56px;
+}
+
+#skill1 {
+    background-color: #30307e8c;
+}
+#skill2 {
+    background-color: #1f1f7a;
+}
+#skill3 {
+    background-color: #20206e;
 }

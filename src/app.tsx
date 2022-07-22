@@ -9,12 +9,13 @@ var ReactDOM = require('react-dom/client');
 class Hello extends React.Component {
     render() {
         return (
-            <>
+            <div id="page-wrapper">
                 <section id="banner">
                     <div className="inner">
                         <h1 id="my-name">Adrian Manrique</h1>
                         <p id="my-title">Software Engineer</p>
                     </div>
+                    <a href="#aboutme"></a>
                 </section>
 
                 <section id="aboutme" className="wrapper0">
@@ -30,19 +31,19 @@ class Hello extends React.Component {
 
                 <section id="skills" className="wrapper1">
                     <div className="inner">
-                        <h1>Skills</h1>
+                        <h1 id="skillsHeader">Skillset</h1>
                         <ul>
-                            <li>
+                            <li id="skill1">
                                 <h3>Software Engineering</h3>
                                 <p>I am a software engineer</p>
                             </li>
 
-                            <li>
+                            <li id="skill2">
                                 <h3>Project Management</h3>
                                 <p>Experience using Atlassian Tools</p>
                             </li>
 
-                            <li>
+                            <li id="skill3">
                                 <h3>Leadership</h3>
                                 <p>I have led groups</p>
                             </li>
@@ -53,9 +54,7 @@ class Hello extends React.Component {
                 <section id="projects">
                         <Project/>
                 </section>
-
-                
-            </>
+            </div>
         );
     }
 }
