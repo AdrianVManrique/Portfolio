@@ -1,0 +1,26 @@
+[
+  {
+    "imgURL": "../src/assets/Nordson_Capstone_Resized.png",
+    "title": "CAD-Import-For-Robotic-Dispensing System",
+    "desc": "Imported CAD coordinate data into Canvas Recipe Files to be used by Robotic Dispensing Systems.",
+    "link": "https://www.w3schools.com/cssref/pr_dim_width.asp"
+  },
+  {
+    "imgURL": "../src/assets/Nordson_Capstone_Resized.png",
+    "title": "AWS Hosted Webpage",
+    "desc": "Single Page Website hosted on AWS secured using secured AJAX requests and Google Maps API.",
+    "link": "https://www.w3schools.com/cssref/pr_dim_width.asp"
+  },
+  {
+    "imgURL": "../src/assets/Nordson_Capstone_Resized.png",
+    "title": "Amazon Clone",
+    "desc": "Locally hosted website meant to mimick basic features of Amazon.",
+    "link": "https://www.w3schools.com/cssref/pr_dim_width.asp"
+  },
+  {
+    "imgURL": "../src/assets/Nordson_Capstone_Resized.png",
+    "title": "Android Clock Application",
+    "desc": "Multi use android app with weather, calendar and alarm features.",
+    "link": "https://www.w3schools.com/cssref/pr_dim_width.asp"
+  }
+]

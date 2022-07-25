@@ -1,7 +1,11 @@
 var React = require('react');
+import * as projects from '../Projects.json'
+
 class Project extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
+
+        const projectInfo = JSON.parse(JSON.stringify(projects))
         this.state = {
             imgURL: "../src/assets/Nordson_Capstone_Resized.png",
             title: "Default Title",
@@ -11,6 +15,7 @@ class Project extends React.Component {
     }
     render() {
         return (
+            
             <div className="wrapper2">
                 <div className="image">
                     <img src={this.state.imgURL} />

@@ -43,6 +43,9 @@
     <Content Include="src\css\styles.css">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="src\Projects.json">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="tsconfig.json">
       <SubType>Code</SubType>
     </Content>
@@ -54,7 +57,7 @@
     <TypeScriptCompile Include="src\app.tsx">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="src\project.tsx">
+    <TypeScriptCompile Include="src\components\project.tsx">
       <SubType>Code</SubType>
     </TypeScriptCompile>
   </ItemGroup>
@@ -63,6 +66,7 @@
     <Folder Include="src\" />
     <Folder Include="src\assets\" />
     <Folder Include="src\css\" />
+    <Folder Include="src\components\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>

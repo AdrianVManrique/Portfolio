@@ -15,9 +15,13 @@ html, body {
     margin: 0px !important;
 }
 
-header{
-    height: auto;
-    width:auto;
+section{
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
+
+p{
+    margin-bottom: 32px;
 }
 
 ul {
@@ -29,7 +33,17 @@ ul {
     text-align:center;
 }
 
-li{
+h1,h2,h3 {
+    text-transform: uppercase;
+}
+
+.image {
+    max-width: 436.5px !important;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.skillsList {
     text-align: left;
     position: relative;
     padding-left: 10px;
@@ -39,16 +53,6 @@ li{
     height: 400px;
     display: inline-block;
     margin: initial;
-}
-
-h1,h2,h3 {
-    text-transform: uppercase;
-}
-
-.image {
-    max-width: 436.5px !important;
-    padding-top: 32px;
-    padding-left: 32px;
 }
 
 .content{
@@ -85,8 +89,18 @@ h1,h2,h3 {
     display: block;
 }
 
+#aboutHeader {
+    display: inline-block;
+    padding-bottom: 21.6px;
+    margin-bottom: 21.6px;
+    border-bottom-color: aliceblue;
+    border-bottom-style: solid;
+    border-image-width: 1;
+    border-bottom-width: 2px;
+}
+
 #projects {
-    display: flex;
+    display: block;
 }
 
 #banner {
